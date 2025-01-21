@@ -1,24 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript-Assignment-01-</title>
 
-    <script>
+    <style>
+        .heading {
+           border: 2px solid black;
+          text-align: center;
+          width: 100%;
+          background-color: rgb(121, 241, 121);
+          border-radius: 4px;
+     
+        }
+        .btn{
+            border-radius: 20px;
+            padding: 10px 20px ;
+            background-color: rgb(168, 241, 150);
+            transition: 1s;
+            font-size: 20px;
+            font-weight: 700;
+            background-color: rgb(121, 241, 121);
+            margin: 20px 0px;
+        
+        }
+        .btn:hover{
+            background-color: rgb(128, 128, 255);
+            color: rgb(121, 241, 121);
+            box-shadow: none;
+            border: none;
+        }
+        .result{
+            border: 2px solid black;
+            border-radius: 4px;
+            height: 50px;
+            width: 30%;
+           margin-left: 550px;
+           padding-top: 10px;
+           font-weight: 700;
+        }
 
 
 
-    </script>
+    </style>
+
 </head>
+
 <body>
+    <div class="heading">
+        <h1>Chicken Prise Calculater</h1>
+        <h4>how much chicken do you need?</h4>
+        
+         <p class="result"></p>
+
+         <button class="btn" onclick="prisecalculater()">Calculat Prise </button>
+    </div>
     <div>
-    <h1>Chicken Prise Calculater</h1>
-    <h5>Hello, how much chicken do you need?</h5>
-</div>
-<div>
-<button onclick="prisecalculater()">Calculat Prise </button>
-</div>
+    </div>
 
 
 
@@ -27,4 +67,5 @@
 
     <script src="./app.js"></script>
 </body>
+
 </html>
